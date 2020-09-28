@@ -6,19 +6,63 @@
     </head>
   <body>
     <style>
+      * {
+      	margin: 0;
+      	padding: 0;
+      	background-color: black;
+      	padding-bottom: 5px;
+         }
+      html, body { 
+      height: 100%;
+     	 }
+      #container { 
+      min-height: 100%;
+      
+      }
+      #main { 
+      	overflow: auto;
+     	padding-bottom: 100px;
+      	background-color: #0099cc ;
+      	height: 100%;
+      }
+      #footer { 
+      	position: relative;
+      	height: 100px;
+      	margin-top: -100px;
+      	clear: both;
+      
+      }
     h1 { color: salmon; text-align: center; font-size: 50; }
- 	#myName { color: red; }
+      .author { 
+      	color: white;
+      
+      }
+      
+      
+ 
+     
     </style>
     <h1>
       I'm <strong>Joseph Wells</strong>
     </h1>
  
-    	<footer>
-    		<p>Author: Joseph Wells</p>
-          	<p> <a href="mailto:jjwells3@uncg.edu">jjwells3@uncg.edu</a></p>
+    
+    <div id="container">
+    		<div id="main">
+              
+     	    </div>  
+      	
+    </div>
+    
+    	<footer id="footer">
     	
-    	</footer>
-  </body>
+         		<p class="author">Author: Joseph Wells</p>
+          		<p class="author">Email: <a href="mailto:jjwells3@uncg.edu">jjwells3@uncg.edu</a></p>
+          		<p class="author">Phone: (336) 604- 9184</p>
+          		<p class="author">Location: <a target="_blank" href="https://www.google.com/maps/place/Greensboro,+NC/@36.1004553,-79.973466,11z/data=!3m1!4b1!4m5!3m4!1s0x8853193f38c77b79:0x93b9c49478be12c8!8m2!3d36.0726354!4d-79.7919754">Greensboro, NC</a>
+          	</p>
+        </footer>
+    </body>
   
   
   
