@@ -4,12 +4,6 @@
 	  <head>
 	    <title>Cover Page</title>
 	    <style>
-	      body {
-	        background-image: url('https://i.pinimg.com/originals/54/7a/9c/547a9cc6b93e10261f1dd8a8af474e03.jpg');
-	        background-repeat: no-repeat;
-	        background-attachment: fixed;
-	        background-position: center;
-	      }
 	      
 	       * {
 	      	margin: 0;
@@ -34,23 +28,33 @@
 	      	clear: both; }
 	      
 	      #footerColor {
-	      color: white; }
+	      color: salmon; }
 	      
 	      h1 { 
-	      color: white;
+	      color: salmon;
 	      font-size: 40;
 	      text-align: center;
 	      }
           h2 { 
-	      color: white;
+	      color: black;
 	      text-align: center;
-	      background-color: black;
+	      background-color: white;
+          border: white solid;
 	        }
-	     #firstImage { 
-	      width: 100;
-          border: black solid
+	     #image1 { 
+	      width: 50%;
+          border: white solid;
 	      
 	      }
+          
+          #textBesideImage1 { 
+          border: white solid;
+          text-align: right;
+          text-shadow: 50px 50px black;
+          color: red;
+          font-size: 50;
+          }
+          
 	    </style>
 	  </head>
 	  <body>
@@ -67,11 +71,13 @@
 	    
 	    
 	      <a target="_blank" href="https://jjw3.github.io/blog/">
-	      <img id="firstImage" src="http://4.bp.blogspot.com/-G2AV2j1woRM/Tnn5L_8kN4I/AAAAAAAAL3s/FUo5xYawsfc/s1600/Ocean+Waves+Best+Wallpapers+6.jpg">
+	      <img id="image1" src="http://4.bp.blogspot.com/-G2AV2j1woRM/Tnn5L_8kN4I/AAAAAAAAL3s/FUo5xYawsfc/s1600/Ocean+Waves+Best+Wallpapers+6.jpg">
 	      </a>   
             
-            
-         
+            <h3 id="textBesideImage1">
+              <a target="_blank" href="https://jjw3.github.io/blog/"> Blog coming soon! </a>
+             </h3>
+        
 	    
 	     <div id="container">
 	    		<div id="main">
@@ -95,6 +101,8 @@
 	    </div>
 	  </body>
 	</html>
+
+
 
 
 
