@@ -86,50 +86,7 @@
       #hrFooter {
           border-color: red;
           padding: 10;
-         
-          }
-          
-          
-          .popup .popuptext {
-          visibility: hidden;
-          width: 160px;
-          background-color: #555;
-          color: #fff;
-          text-align: center;
-          border-radius: 6px;
-          padding: 8px 0;
-          positition: absolute;
-          z-index: 1;
-          bottom: 125%;
-          left: 50%;
-          margin-left: -80px;         
-          }
-          
-          .popup .popuptext::after {
-	 		 content: "";
-	 		 position: absolute;
-			  top: 100%;
- 			 left: 50%;
-	  		margin-left: -5px;
-			  border-width: 5px;
-			  border-style: solid;
-		  border-color: #555 transparent transparent transparent;
-	}
-          
-          .popup .show {
- 			 visibility: visible;
- 			 -webkit-animation: fadeIn 1s;
-		  animation: fadeIn 1s
-	}
-
-          @-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-          
-          @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
+		    }
 
 
           
@@ -215,31 +172,12 @@
 	
 
 	         		<p class="author">Author: Joseph Wells</p>      
-	        
-	          <div class="popup" onclick="myFunction()">
-                            Contact: Click here!
-			<span class="popuptext" id="myPopup">
-
-
-<input type="text" required placeholder="Name:">
-<input type="text" required  placeholder="Email:">
-<input type="text" required placeholder="Your message">
-<button type="submit">Submit</button>
-            		</span>      
+		    <p class="author">Email: <a mailto:"jjwells3@uncg.edu"> Send Message!</a>  
 	</div>		
 	          	
 	        </footer>
 	    </div>
 	  </body>
 
-<script>
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
 
-function closeForm() {
-  document.getElementById("submit").style.display = "none";
-}
-</script>
 	</html>
