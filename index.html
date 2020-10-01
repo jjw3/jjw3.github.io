@@ -29,11 +29,7 @@
 	      #footerColor {
 	      color: salmon; }
 	      
-	      h1 { 
-	      background-color: black;
-          width: 100%;
-          height: 100;
-	      }
+	     
           h2 { 
 	      color: black;
 	      text-align: center;
@@ -54,11 +50,11 @@
           }
          
           #movingtext1 { 
-          border: white solid;
+      
           text-align: center;
           color: red;
           font-size: 50px;
-          text-decoration: none;
+        
           
           }
           
@@ -72,19 +68,29 @@
           
           }
           
+        .hr {
+          border-color: red;
+         
+          }
         
+          #hr2 {
+          border-color: red;    
+          }
           
-        
+          #middle {
+          background-color: black;
+          padding: 0;
+          }
           
 	    </style>
 	  </head>
 	  <body>
 	    
 	  <h1>
-        
+         <hr class="hr">
         </h1>
-	  <div id="heading2">
-	      <h2>
+        
+        </h2>
 	        Hi, I'm a freshman attending the University of North Carolina at Greensboro majoring in computer science and I'm loving it! Starting with my first project, this website, I'll be adding more projects as I continue to gain more knowledge. Check out my projects by clicking the images below!
 	    </h2>
 	 </div>
@@ -113,20 +119,26 @@
        
        
         </div>
-          
-        <marquee width="100%" height="100px" direction="right">
-            <h3 id="movingtext1">
-             Blog coming soon!
-             </h3>
-        </marquee>
-         
-     
+         	
+	<div id="middle">
+              
+
+			<hr id="hr2">
+       			 <marquee width="100%" height="100px" direction="right">
+          		  <h3 id="movingtext1">
+           			  Blog coming soon!
+            	 </h3>
+       		 	</marquee>
+        
+			<hr class="hr">
+	</div>
          
         <div> 
         	<img id="image2" src="http://allpicts.in/wp-content/uploads/2016/09/Beautiful-Sunset-in-Nagano-Japan.jpg">
         </div>
         
-	
+		<hr class="hr">
+
 	     <div id="container">
 	    		<div id="main">
 	
