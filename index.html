@@ -42,33 +42,38 @@
 	      background-color: white;
           border: white solid;
 	        }
-	     div.gallery img { 
-	      width: 50%;
-          height: auto;
-          border: white solid;
-	      
-	      }
-          
-          div.desc { 
-          padding: 15px
-          text-align: center;
-          
+	     
+	      .picPoj {
+          width: 40%;
           }
+          
+          
+           div.scrollmenu { 
+      background-color: 333;
+      overflow: auto;
+      overflow: scroll;
+      white-space: nowrap;      
+      }
+
+   div.scrollmenu img { 
+      display: inline-block;
+	  padding: 14px;
+	  text-decoration: none;   
+      
+      }   
+      
+     div.scrollmenu img:hover {
+ 		 background-color: 004d66;
+       }
          
           #movingtext1 { 
       
           text-align: center;
           color: red;
           font-size: 50px;
-        
           
           }
-          
-          #image2 { 
-          width: 100%;
-          height: 200;
-          }
-          
+       
           div.header {
           position: left;
           
@@ -100,36 +105,24 @@
    
         
         
-        </h2>
+   
 
 <h2>
 	        Hi, I'm a freshman attending the University of North Carolina at Greensboro majoring in computer science and I'm loving it! Starting with my first project, this website, I'll be adding more projects as I continue to gain more knowledge. Check out my projects by clicking the images below!
 	    </h2>
-	 </div>
+	
 	    
 	  
-      <div class="gallery">
+      <div class="scrollmenu">
              
      
  	      <a target="_blank" href="https://jjw3.github.io/blog-homepage/">
-	      <img id="image1" src="https://antongorlin.com/wp-content/gallery/ocean-pictures/long-exposure-ocean-sunrise.jpg">
+	      <img class="picPoj" src="https://antongorlin.com/wp-content/gallery/ocean-pictures/long-exposure-ocean-sunrise.jpg">
 	      </a>   
-       				<div class="desc">
-          			
-           		  </div>
-     </div>
-
-     <div class="gallery">
-       	<img src="http://www.globalexpertsaccelerator.com/wp-content/uploads/2017/06/Day-10-Vision-2.jpg">
-       		
-      			 <div class="desc">
-             	
-     			 </div>
-      </div>
-
-       
-       
-       
+       		<img class="picPoj" src="https://eskipaper.com/images/philadelphia-skyline-1.jpg">
+ 
+       		<img class="picPoj" src="http://www.globalexpertsaccelerator.com/wp-content/uploads/2017/06/Day-10-Vision-2.jpg">
+       		  
         </div>
          	
 	<div id="middle">
@@ -145,9 +138,7 @@
 			
 	</div>
          
-        <div> 
-        	<img id="image2" src="http://granitegrok.com/wp-content/uploads/NYC-Skyline.jpg">
-        </div>
+        
         
 	
 
@@ -160,11 +151,7 @@
 
 	    </div>	
 
-        <marquee direction="right">
-          <h3 id="movingtext2">
-             Enjoying the website? 
-          </h3>
-        </marquee>
+   
          
 	    <div id="footerColor">
 
